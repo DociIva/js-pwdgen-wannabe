@@ -11,14 +11,22 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 200px auto;
     width: 300px;
     height: 200px;
     background-color: rgba(255, 20, 67, 0.7);
+}
+#box:hover {
+    cursor: pointer;
+    opacity: 0.9;
 }
 #box-j {
     width: 200px;
     height: 100px;
     color:#fff;
     background: rgba(61, 61, 245, 0.7);
+}
+#box-j:hover {
+    cursor: pointer;
+    opacity: 0.6;
 }
