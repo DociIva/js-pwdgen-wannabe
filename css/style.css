@@ -4,5 +4,21 @@
     box-sizing: border-box;
 }
 body {
-    background-color: teal;
+    background-image:url(../img/fumo\ colorato.jpg) ;
+}
+/*Box*/
+#box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 300px;
+    height: 200px;
+    background-color: rgba(255, 20, 67, 0.7);
+}
+#box-j {
+    width: 200px;
+    height: 100px;
+    color:#fff;
+    background: rgba(61, 61, 245, 0.7);
 }
